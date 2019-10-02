@@ -1,8 +1,8 @@
 # Spécification initiale
 
-Hixe fonctionne en complément du [site](http://www.clubalpinsion.ch) du Club Alpin Suisse, groupe de Sion (CASS).
+Hixe fonctionne en complément du [site](http://www.clubalpinsion.ch) du Club Alpin Suisse, groupe de Sion (CAS Sion).
 
-L'accès à Hixe est limité aux membres du CASS, il est contrôlé au moyen du login/mot de passe de l'utilisateur sur le site.
+L'accès à Hixe est limité aux membres du CAS Sion, il est contrôlé au moyen du login/mot de passe de l'utilisateur sur le site.
 
 Le site est fait avec Joomla, l'authentification se fait au moyen du [plugin Joomla IDP](https://plugins.miniorange.com/joomla-idp-saml-sso).
 
@@ -11,8 +11,9 @@ Le site est fait avec Joomla, l'authentification se fait au moyen du [plugin Joo
 Les personnes utilisant Hixe sont
 
 - Les administrateurs, qui gèrent le site
-- Les guides, qui organisent des courses
+- Les chefs de courses (Cdc), qui organisent des courses
 - Les participants, qui prennent part aux courses
+- Visiteurs voulant voir le programme de courses
 
 Les personnes ne sont pas cantonnées à un seul rôle. Un administrateur, par exemple, peut être guide d'une course et participant dans une autre.
 
@@ -25,13 +26,15 @@ Lors de l'authentification auprès du site, Hixe récupère les informations sui
 - Adresse email
 - Numéro de membre
 - Majeur (oui/non)
-- Formations CAS 
+- Formations CAS --non
+- Membre CAS Sion / Membre CAS / Non membre
 
 ## Courses
 
 ### Caractéristiques
 
 Les caractéristiques d'une course gérées par Hixe sont:
+
 - La date l'heure de rendez-vous
 - Le lieu de rendez-vous (texte et/ou coordonnées)
 - L'heure de départ
